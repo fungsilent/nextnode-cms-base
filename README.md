@@ -3,7 +3,7 @@ NextnodeTest Content Mangement System
 
 ## Prerequisite
 1. Node.js 8.x or above
-2. MongoDB 3.4.9 (Do not upgrade to 3.6, since the pipeline of execution is changed)
+2. MongoDB 4.0.0
 3. npm 6.x or above
 
 ## To run Project for development
