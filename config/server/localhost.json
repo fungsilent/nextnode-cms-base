@@ -1,0 +1,16 @@
+[{
+    "name"        : "nextnodetestcms",
+    "script"      : "index.js",
+    "args"        : "[]",
+    "ignoreWatch" : ["node_modules", "public"],
+    "watch"       : "true",
+    "exec_mode"  : "fork",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss:SSS Z",
+    "error_file" : "/var/log/pm2/nextnodetestcms-err.log",
+    "out_file"   : "/var/log/pm2/nextnodetestcms-out.log",
+    "env": {
+        "NODE_ENV": "localhost",
+        "APP_ENV": "localhost",
+        "CRON_ENV": 1
+    }
+}]
